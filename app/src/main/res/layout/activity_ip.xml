@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.imayuki.davis_r.IpActivity">
+
+
+    <EditText
+        android:id="@+id/serverIp"
+        android:hint="@string/enter_dist_ip"
+        android:layout_marginTop="22dp"
+        android:layout_width="match_parent"
+        android:inputType="number|text"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:text="@string/send"
+        android:id="@+id/btSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

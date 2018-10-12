@@ -1,0 +1,42 @@
+{
+  "buildFiles": [
+    "C:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\src\\main\\jni\\Android.mk",
+    "C:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\src\\main\\jni\\Application.mk"
+  ],
+  "cleanCommands": [
+    "C:\\Users\\SCPC18USER\\AppData\\Local\\Android\\sdk\\android-ndk-r15c\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/SCPC18USER/Desktop/gstreamer/VLCAndroidMultiWindow-udp/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\build\\intermediates\\ndkBuild\\debug\\lib clean"
+  ],
+  "libraries": {
+    "gstreamer_android-debug-gst-build-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\SCPC18USER\\AppData\\Local\\Android\\sdk\\android-ndk-r15c\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/SCPC18USER/Desktop/gstreamer/VLCAndroidMultiWindow-udp/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\build\\intermediates\\ndkBuild\\debug\\lib gst-build-armeabi-v7a/libgstreamer_android.so",
+      "toolchain": "toolchain-gst-build-armeabi-v7a",
+      "abi": "gst-build-armeabi-v7a",
+      "artifactName": "gstreamer_android",
+      "files": [
+        {
+          "src": "gst-build-armeabi-v7a\\gstreamer_android.c",
+          "flags": "\"--sysroot\u003dC:/Users/SCPC18USER/AppData/Local/Android/sdk/android-ndk-r15c/build//../sysroot\" \"-isystem\" \"C:/Users/SCPC18USER/AppData/Local/Android/sdk/android-ndk-r15c/build//../sysroot/usr/include/arm-linux-androideabi\" \"-gcc-toolchain\" \"C:/Users/SCPC18USER/AppData/Local/Android/sdk/android-ndk-r15c/build//../toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64\" \"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-fno-integrated-as\" \"-g\" \"-target\" \"armv7-none-linux-androideabi21\" \"-march\u003darmv7-a\" \"-mfloat-abi\u003dsoftfp\" \"-mfpu\u003dvfpv3-d16\" \"-Wall\" \"-Werror\" \"-IC:/Users/SCPC18USER/Desktop/gstreamer/gstreamer/armv7/include\""
+        }
+      ],
+      "output": "gst-build-armeabi-v7a\\libgstreamer_android.so"
+    },
+    "tutorial-3-debug-armeabi-v7a": {
+      "buildCommand": "C:\\Users\\SCPC18USER\\AppData\\Local\\Android\\sdk\\android-ndk-r15c\\ndk-build.cmd NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003dC:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\src\\main\\jni\\Android.mk NDK_APPLICATION_MK\u003dC:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\src\\main\\jni\\Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDEBUG\u003d1 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003dC:/Users/SCPC18USER/Desktop/gstreamer/VLCAndroidMultiWindow-udp/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003dC:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\build\\intermediates\\ndkBuild\\debug\\lib C:/Users/SCPC18USER/Desktop/gstreamer/VLCAndroidMultiWindow-udp/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libtutorial-3.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "tutorial-3",
+      "files": [],
+      "output": "C:\\Users\\SCPC18USER\\Desktop\\gstreamer\\VLCAndroidMultiWindow-udp\\app\\build\\intermediates\\ndkBuild\\debug\\obj\\local\\armeabi-v7a\\libtutorial-3.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-gst-build-armeabi-v7a": {
+      "cCompilerExecutable": "C:\\Users\\SCPC18USER\\AppData\\Local\\Android\\sdk\\android-ndk-r15c\\build\\..\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe"
+    },
+    "toolchain-armeabi-v7a": {}
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}

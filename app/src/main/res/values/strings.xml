@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Davis_R</string>
+    <string name="enter_dist_ip">Enter Dist_Terminal IP</string>
+    <string name="send">Send</string>
+</resources>
